@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>starbucks</title>
+    <link rel="stylesheet" href="./styler.css" />
+  </head>
+  <body>
+    <div class="circulo"></div>
+    <img src="./imagem/logo.png" class="logo" />
+    <div class="conteudo">
+      <div class="caixa-texto">
+        <h2>
+          Aqui nos servimos o melhor<br />
+          <samp>sorvete da regiao</samp>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          sed<br />
+          nobis corrupti a reprehenderit nulla odio hic non beatae quos, ea
+          aut<br />
+          vitae ut repellendus adipisci nemo? Rem, eaque animi.
+        </p>
+        <button>click aqui</button>
+      </div>
+
+      <div class="caixa-imagem">
+        <img src="./imagem/img1.png" class="starbucks" />
+      </div>
+    </div>
+
+    <div class="menu">
+      <img
+        src="./imagem/thumb1.png"
+        class="butao-menu"
+        onclick="trocaImagem('./imagem/img1.png'); trocaCor('#017143')"
+      />
+      <img
+        src="./imagem/thumb2.png"
+        class="butao-menu"
+        onclick="trocaImagem('./imagem/img2.png'); trocaCor('#eb7495')"
+      />
+      <img
+        src="./imagem/thumb3.png"
+        class="butao-menu"
+        onclick="trocaImagem('./imagem/img3.png'); trocaCor('#d752b1')"
+      />
+    </div>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
